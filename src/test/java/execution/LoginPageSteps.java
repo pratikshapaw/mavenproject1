@@ -12,7 +12,7 @@ public class LoginPageSteps {
 	LoginPage login=new LoginPage(DriverFactory.getDriver());
 	@Given("User is at login page")
 	public void user_is_at_login_page() {
-	    WebDriver driver = DriverFactory.getDriver();
+	    WebDriver driver=DriverFactory.getDriver();
 	    driver.get("https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2NyZWF0ZS8%2C/");
 	}
 
