@@ -17,7 +17,7 @@ public class AppHooks {
 	public void launchBrowser()
 	{																																											
 		DriverFactory df=new DriverFactory();
-		driver=df.launchBrowser();
+		driver=df.initBrowser();
 		driver.manage().window().maximize();
 	
 	}

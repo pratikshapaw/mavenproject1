@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	WebDriver driver;
+	 WebDriver driver;
 	@FindBy(xpath="//*[@id='email']")WebElement username;
 	@FindBy(xpath="(//*[@type='password'])[1]") WebElement password;
 	@FindBy(xpath="(//*[text()='Sign In'])[1]") WebElement loginbutton;

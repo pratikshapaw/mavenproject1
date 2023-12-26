@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
 (
-		features= {"src\\test\\resources\\feature\\LoginPage.feature"},
+		features= {"src\\test\\resources\\Feature"},
 		glue= {"execution"},
 				plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
 		
