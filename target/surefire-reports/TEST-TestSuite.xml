@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="81.221" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.707" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -50,17 +50,17 @@
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\eclipse-workspace\mavenproject1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="m2e.build.project.data.socket.port" value="55457"/>
+    <property name="m2e.build.project.data.socket.port" value="60206"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Admin\eclipse\java-2022-12\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.5+8"/>
-    <property name="classworlds.conf" value="C:\Users\Admin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4162985862506384349.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Admin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf101560454719498380.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario" classname="execution.LoginPageRunner" time="28.644"/>
-  <testcase name="runScenario" classname="execution.LoginPageRunner" time="18.012"/>
-  <testcase name="runScenario" classname="execution.LoginPageRunner" time="24.445"/>
+  <testcase name="runScenario" classname="execution.LoginPageRunner" time="24.473"/>
+  <testcase name="runScenario" classname="execution.LoginPageRunner" time="17.725"/>
+  <testcase name="runScenario" classname="execution.LoginPageRunner" time="17.278"/>
 </testsuite>
